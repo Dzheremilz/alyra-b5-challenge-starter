@@ -1,9 +1,55 @@
-big_image_1.jpg
-<!---->
-Contact
-<!---->
+<!DOCTYPE html>
+<html lang="en">
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
-magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-condimentum nibh, ut fermentum massa justo sit amet risus.
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlyraMag</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <article class="my-5 p-4 shadow mx-4">
+    <img src="images/big_image_1.jpg" class="p-4 img-fluid" alt="contact us">
+    <h2 class="fw-bold text-center">Contact Us</h2>
+    <p class="text-center text-secondary">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus
+      mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus,
+      tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label text-secondary">Name*</label>
+        <input type="text" class="form-control" id="name" aria-describedby="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label text-secondary">Phone</label>
+        <input type="tel" class="form-control" id="phone" aria-describedby="name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label text-secondary">Email* </label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label text-secondary">Write Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Send Message</button>
+    </form>
+  </article>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
