@@ -2,6 +2,6 @@ body {
   font-family: 'Libre Baskerville','Montserrat', sans-serif;
 }
 
-time {
+time, .text-secondary {
   font-family: 'Montserrat', sans-serif;
 }
