@@ -5,3 +5,7 @@ body {
 time, .text-secondary {
   font-family: 'Montserrat', sans-serif;
 }
+
+.test {
+  border: 2px solid red;
+}
